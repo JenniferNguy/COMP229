@@ -1,0 +1,64 @@
+body {
+background: linear-gradient(to bottom, #aaff00, #eeffcc); 
+
+}
+
+canvas{
+  border-radius: 1em;
+  margin-left: 20%;
+  
+}
+
+#gameInfo {
+  width: 1000px;
+  text-align: center;
+  background-color: #ccffff;
+  height: 100px;
+  border-radius: 1em;
+  margin: auto;
+ 
+}
+
+.score {
+  margin-top: 0px;
+  width: 48%;
+  float: left;
+}
+
+
+.reset {
+  width: 48%;
+  float: right;
+  margin-top: 10px;
+}
+
+#scoreDisplay{
+  font-size: 22px;
+  color: blue;
+  
+}
+
+/*start of button css*/
+.button {
+  
+  border-radius: 4px;
+  background-color: #4d4dff;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button:hover {
+  background-color: #33ff99;
+  color: black;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+/*End of button*/
+    
